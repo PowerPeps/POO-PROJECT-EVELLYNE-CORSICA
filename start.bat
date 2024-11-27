@@ -18,7 +18,7 @@ echo ============================================
 echo         Compilation terminee avec succes.
 echo ============================================
 echo Lancement du programme...
-java -cp class IHMCourse
+java -cp class Main
 echo ============================================
 echo           Programme termine.
 echo ============================================

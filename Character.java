@@ -7,6 +7,20 @@ public class Character {
     private List<String> dislikes;
     private int relationshipLevel;
 
-    public void interact() {}
-    public void updateRelationship(int level) {}
+    public Character(String name, String personality, List<String> likes, List<String> dislikes) {
+        this.name = name;
+        this.personality = personality;
+        this.likes = likes;
+        this.dislikes = dislikes;
+        this.relationshipLevel = 0;
+    }
+
+    public void interact() {
+        System.out.println(name + " is interacting with you.");
+    }
+
+    public void updateRelationship(int level) {
+        relationshipLevel += level;
+        System.out.println("Relationship level with " + name + ": " + relationshipLevel);
+    }
 }
