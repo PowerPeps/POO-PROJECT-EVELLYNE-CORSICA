@@ -23,4 +23,8 @@ public class Character {
         relationshipLevel += level;
         System.out.println("Relationship level with " + name + ": " + relationshipLevel);
     }
+
+    public String getName(){
+        return(this.name);
+    }
 }
