@@ -1,24 +1,21 @@
+
 public class Choice {
     private String text;
-    private String consequence;
-    private StoryEvent nextEvent;
+    private String targetSceneId;
+    private String condition;
 
-    public Choice(String text, String consequence, StoryEvent nextEvent) {
+    public Choice(String text, String targetSceneId, String condition) {
         this.text = text;
-        this.consequence = consequence;
-        this.nextEvent = nextEvent;
+        this.targetSceneId = targetSceneId;
+        this.condition = condition;
     }
 
-    public String getText() {
-        return text;
-    }
+    public String getText() { return text; }
+    public void setText(String text) { this.text = text; }
 
-    public StoryEvent getNextEvent() {
-        return nextEvent;
-    }
+    public String getTargetSceneId() { return targetSceneId; }
+    public void setTargetSceneId(String targetSceneId) { this.targetSceneId = targetSceneId; }
 
-    public void select() {
-        System.out.println("You selected: " + text);
-        System.out.println("Consequence: " + consequence);
-    }
+    public String getCondition() { return condition; }
+    public void setCondition(String condition) { this.condition = condition; }
 }
