@@ -1,8 +1,10 @@
-
 public class Choice {
     private String text;
     private String targetSceneId;
     private String condition;
+
+    public Choice() {
+    }
 
     public Choice(String text, String targetSceneId, String condition) {
         this.text = text;
@@ -10,12 +12,27 @@ public class Choice {
         this.condition = condition;
     }
 
-    public String getText() { return text; }
-    public void setText(String text) { this.text = text; }
+    public String getText() {
+        return text;
+    }
 
-    public String getTargetSceneId() { return targetSceneId; }
-    public void setTargetSceneId(String targetSceneId) { this.targetSceneId = targetSceneId; }
+    public void setText(String text) {
+        this.text = text;
+    }
 
-    public String getCondition() { return condition; }
-    public void setCondition(String condition) { this.condition = condition; }
+    public String getTargetSceneId() {
+        return targetSceneId;
+    }
+
+    public void setTargetSceneId(String targetSceneId) {
+        this.targetSceneId = targetSceneId;
+    }
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public void setCondition(String condition) {
+        this.condition = condition;
+    }
 }

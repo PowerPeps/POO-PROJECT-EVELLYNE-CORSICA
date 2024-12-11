@@ -1,0 +1,248 @@
+{
+    "scenes": [
+      {
+        "id": "1",
+        "name": "Début de l'aventure",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "Vous vous réveillez dans une forêt sombre."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Où suis-je ? Que s'est-il passé ?"
+          },
+          {
+            "character": "Narrateur",
+            "text": "Devant vous, il y a deux chemins."
+          }
+        ],
+        "backgroundImage": "images/foret.jpg",
+        "choices": [
+          {
+            "text": "Prendre le chemin de gauche",
+            "targetSceneId": "2"
+          },
+          {
+            "text": "Prendre le chemin de droite",
+            "targetSceneId": "3"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Le village abandonné",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "Vous arrivez dans un village abandonné."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Cet endroit me donne la chair de poule..."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Il semble y avoir des traces de lutte."
+          }
+        ],
+        "backgroundImage": "images/village.jpg",
+        "choices": [
+          {
+            "text": "Explorer une maison délabrée",
+            "targetSceneId": "4"
+          },
+          {
+            "text": "Revenir à la forêt",
+            "targetSceneId": "1"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "La montagne mystérieuse",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "Vous vous retrouvez au pied d'une montagne imposante."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Cette montagne semble cacher bien des secrets."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Un sentier escarpé mène au sommet."
+          }
+        ],
+        "backgroundImage": "images/montagne.jpg",
+        "choices": [
+          {
+            "text": "Commencer l'ascension",
+            "targetSceneId": "5"
+          },
+          {
+            "text": "Revenir à la forêt",
+            "targetSceneId": "1"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "La maison hantée",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "À l'intérieur de la maison, vous trouvez des objets anciens et des inscriptions étranges sur les murs."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Qui vivait ici ? Pourquoi est-ce si lugubre ?"
+          },
+          {
+            "character": "Narrateur",
+            "text": "Vous entendez un bruit sourd venant du grenier."
+          }
+        ],
+        "backgroundImage": "images/maison.jpg",
+        "choices": [
+          {
+            "text": "Monter au grenier",
+            "targetSceneId": "6"
+          },
+          {
+            "text": "Fuir la maison",
+            "targetSceneId": "2"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Le sommet glacé",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "Après une montée difficile, vous atteignez un sommet glacé avec une vue spectaculaire."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Quelle beauté... mais il fait incroyablement froid."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Un passage semble mener à une grotte cachée dans la glace."
+          }
+        ],
+        "backgroundImage": "images/sommet.jpg",
+        "choices": [
+          {
+            "text": "Explorer la grotte",
+            "targetSceneId": "7"
+          },
+          {
+            "text": "Redescendre la montagne",
+            "targetSceneId": "3"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Le secret du grenier",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "Dans le grenier, vous découvrez un coffre verrouillé et une vieille clé sur le sol."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Une clé... cela pourrait ouvrir le coffre."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Le coffre contient une carte menant à un trésor caché."
+          }
+        ],
+        "backgroundImage": "images/grenier.jpg",
+        "choices": [
+          {
+            "text": "Suivre la carte",
+            "targetSceneId": "8"
+          },
+          {
+            "text": "Descendre du grenier",
+            "targetSceneId": "4"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "La grotte cristalline",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "À l'intérieur de la grotte, les murs scintillent de cristaux lumineux."
+          },
+          {
+            "character": "Aventurier",
+            "text": "C'est comme un autre monde ici..."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Un piédestal se dresse au centre, portant une sphère étrange."
+          }
+        ],
+        "backgroundImage": "images/grotte.jpg",
+        "choices": [
+          {
+            "text": "Toucher la sphère",
+            "targetSceneId": "9"
+          },
+          {
+            "text": "Quitter la grotte",
+            "targetSceneId": "5"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "La chasse au trésor",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "La carte vous mène à une clairière où un coffre est enfoui."
+          },
+          {
+            "character": "Aventurier",
+            "text": "C'est ici ! Je vais creuser."
+          },
+          {
+            "character": "Narrateur",
+            "text": "Vous découvrez un trésor rempli de richesses et d'artefacts anciens."
+          }
+        ],
+        "backgroundImage": "images/clairiere.jpg",
+        "choices": []
+      },
+      {
+        "id": "9",
+        "name": "Le portail vers l'inconnu",
+        "dialogues": [
+          {
+            "character": "Narrateur",
+            "text": "En touchant la sphère, une lumière aveuglante vous enveloppe."
+          },
+          {
+            "character": "Aventurier",
+            "text": "Que se passe-t-il ?!"
+          },
+          {
+            "character": "Narrateur",
+            "text": "Vous êtes transporté dans un monde inconnu, prêt pour une nouvelle aventure."
+          }
+        ],
+        "backgroundImage": "images/portail.jpg",
+        "choices": []
+      }
+    ]
+  }
+  

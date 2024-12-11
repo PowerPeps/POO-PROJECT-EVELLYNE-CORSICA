@@ -1,0 +1,74 @@
+{
+  "scenes": [
+    {
+      "id": "1",
+      "name": "Début de l'aventure",
+      "dialogues": [
+        {
+          "character": "Narrateur",
+          "text": "Vous vous réveillez dans une forêt sombre."
+        },
+        {
+          "character": "Aventurier",
+          "text": "Où suis-je ? Que s'est-il passé ?"
+        },
+        {
+          "character": "Narrateur",
+          "text": "Devant vous, il y a deux chemins."
+        }
+      ],
+      "backgroundImage": "foret.png",
+      "choices": [
+        {
+          "text": "Prendre le chemin de gauche",
+          "targetSceneId": "2"
+        },
+        {
+          "text": "Prendre le chemin de droite",
+          "targetSceneId": "3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Le village abandonné",
+      "dialogues": [
+        {
+          "character": "Narrateur",
+          "text": "Vous arrivez dans un village abandonné."
+        },
+        {
+          "character": "Aventurier",
+          "text": "Cet endroit me donne la chair de poule..."
+        },
+        {
+          "character": "Narrateur",
+          "text": "Il semble y avoir des traces de lutte."
+        }
+      ],
+      "backgroundImage": "images/village.jpg",
+      "choices": []
+    },
+    {
+      "id": "3",
+      "name": "La montagne mystérieuse",
+      "dialogues": [
+        {
+          "character": "Narrateur",
+          "text": "Vous vous retrouvez au pied d'une montagne imposante."
+        },
+        {
+          "character": "Aventurier",
+          "text": "Cette montagne semble cacher bien des secrets."
+        },
+        {
+          "character": "Narrateur",
+          "text": "Un sentier escarpé mène au sommet."
+        }
+      ],
+      "backgroundImage": "images/montagne.jpg",
+      "choices": []
+    }
+  ]
+}
+
